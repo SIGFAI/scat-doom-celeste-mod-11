@@ -1,0 +1,4 @@
+alias sic_dash "netevent sic_dash"
+addkeysection "SuperIntelligent Cat" SicCatKeys
+addmenukey "Celeste Dash" sic_dash
+defaultbind f sic_dash

@@ -1,0 +1,86 @@
+// Celeste-style night over the blocky mountain: snowy peaks just above the walls, aurora and moon above.
+skybox CELSKY
+{
+	CSKYN
+	CSKYE
+	CSKYS
+	CSKYW
+	CSKYT
+	CSKYB
+}
+
+flickerlight2 SIC_TORCH
+{
+	color 1.0 0.7 0.3
+	size 56
+	secondarySize 64
+	interval 0.12
+	offset 0 30 0
+}
+
+pointlight SIC_LAMP
+{
+	color 1.0 0.95 0.55
+	size 88
+	offset 0 84 0
+}
+
+pointlight SIC_CRYSTAL
+{
+	color 0.3 1.0 0.55
+	size 40
+	offset 0 16 0
+}
+
+pointlight SIC_HEART
+{
+	color 0.35 0.6 1.0
+	size 64
+	offset 0 16 0
+}
+
+pointlight SIC_BERRY
+{
+	color 1.0 0.3 0.35
+	size 24
+	offset 0 12 0
+}
+
+pointlight SIC_ORB
+{
+	color 0.8 0.2 1.0
+	size 40
+}
+
+pointlight SIC_LASER
+{
+	color 1.0 0.25 0.35
+	size 32
+}
+
+pulselight SIC_XP
+{
+	color 0.6 1.0 0.2
+	size 14
+	secondarySize 20
+	interval 0.6
+}
+
+object SicTorch  { frame MTOR { light SIC_TORCH } }
+object SicTorch2 { frame MTOR { light SIC_TORCH } }
+object SicTorch3 { frame MTOR { light SIC_TORCH } }
+object SicTorch4 { frame MTOR { light SIC_TORCH } }
+object SicTorch5 { frame MTOR { light SIC_TORCH } }
+object SicTorch6 { frame MTOR { light SIC_TORCH } }
+object SicTorch7 { frame MTOR { light SIC_TORCH } }
+object SicLampPost  { frame MLMP { light SIC_LAMP } }
+object SicLampPost2 { frame MLMP { light SIC_LAMP } }
+object SicLampPost3 { frame MLMP { light SIC_LAMP } }
+object SicDashCrystal { frame DCRYA { light SIC_CRYSTAL } frame DCRYC { light SIC_CRYSTAL } }
+object SicCrystalHeart { frame CHRT { light SIC_HEART } }
+object SicStrawberry { frame SBRY { light SIC_BERRY } }
+object SicWingBerry { frame SBRW { light SIC_BERRY } }
+object SicGoldBerry { frame GBRY { light SIC_LAMP } }
+object SicShadowOrb { frame TNT1 { light SIC_ORB } }
+object SicCatLaser { frame TNT1 { light SIC_LASER } }
+object SicXPOrb { frame TNT1 { light SIC_XP } }

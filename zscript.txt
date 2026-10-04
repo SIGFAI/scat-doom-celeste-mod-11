@@ -1,0 +1,10 @@
+version "4.14"
+
+#include "zscript/world.zs"
+#include "zscript/fx.zs"
+#include "zscript/celeste.zs"
+#include "zscript/game.zs"
+#include "zscript/bow.zs"
+#include "zscript/mobs.zs"
+#include "zscript/decor.zs"
+#include "zscript/demo.zs"

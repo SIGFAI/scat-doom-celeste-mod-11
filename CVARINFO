@@ -1,0 +1,2 @@
+// Set by demo.cfg: the mod plays its own showcase timeline (console "wait" does not delay startup scripts).
+server noarchive int sic_demo = 0;

@@ -1,0 +1,165 @@
+# SuperIntelligent Cat - credits
+
+A GZDoom mod (Freedoom 2). Code, scripts and the generated art are original to this mod.
+
+## 3D models (rendered into the Doom sprites BZOM, SHDW, HISS, BCAT and the bow arm)
+- Kenney "Blocky Characters" 2.0 (character-l, character-e, character-n) - https://kenney.nl/assets/blocky-characters - Kenney (www.kenney.nl) - CC0 1.0
+- Kenney "Cube Pets" (animal-cat, recoloured for the Hisser; with added glasses and cap for the SuperIntelligent Cat) - https://kenney.nl/assets/cube-pets - Kenney (www.kenney.nl) - CC0 1.0
+
+## Generated with fal (AI image generation, made for this mod)
+- Night sky with aurora and snowy peaks (CSKY*), strawberry (SBRY), winged strawberry frames (SBRW), dash crystal (DCRY), crystal heart (CHRT), spring (SPRG) - generated with fal (nano-banana-2); squash/stretch, used-crystal, golden strawberry and pain/death tints were derived from them by editing pixels.
+
+## Block textures (mod/textures, MC*.png)
+All textures below are derived from Minetest Game (https://github.com/minetest/minetest_game), commit snapshot of branch master downloaded 2026-10-04.
+Changes: 16x16 sources upscaled x4 (nearest neighbour), overlays composited as Minetest does, alpha removed or thresholded to binary; doors cropped to the front face of the UV map and window holes filled. Licenses and authors are as stated in each mod's README.md / license.txt.
+CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/ ; CC BY 3.0: https://creativecommons.org/licenses/by/3.0/ ; CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Because CC BY-SA sources are included, these derived textures are distributed under CC BY-SA 3.0.
+
+| mod/textures file | source path in minetest_game | author | license | project |
+|---|---|---|---|---|
+| MCGRASS.png | mods/default/textures/default_grass.png | TumeniNodes | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDIRT.png | mods/default/textures/default_dirt.png | random-geek, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSAND.png | mods/default/textures/default_sand.png | VanessaE | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGRAVEL.png | mods/default/textures/default_gravel.png | sofar, derived from Gambit's PixelBOX texture pack light gravel | CC0 1.0 | https://github.com/minetest/minetest_game |
+| MCSNOW.png | mods/default/textures/default_snow.png | Gambit | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPLANK.png | mods/default/textures/default_wood.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPLANK2.png | mods/default/textures/default_junglewood.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPLANK3.png | mods/default/textures/default_acacia_wood.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPLANK4.png | mods/default/textures/default_pine_wood.png | paramat (listed as default_pinewood.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPLANK5.png | mods/default/textures/default_aspen_wood.png | sofar, derived from default_pine_wood (by paramat) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOBBLE.png | mods/default/textures/default_cobble.png | Neuromancer, based on texture by Brane praefect | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSTONE.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSTBRK.png | mods/default/textures/default_stone_brick.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSTBLK.png | mods/default/textures/default_stone_block.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCMOSSY.png | mods/default/textures/default_mossycobble.png | Neuromancer, based on texture by Brane praefect | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCOBSID.png | mods/default/textures/default_obsidian.png | jojoa1997 | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCOBSBRK.png | mods/default/textures/default_obsidian_brick.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCICE.png | mods/default/textures/default_ice.png | asl97 | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCWATER.png | mods/default/textures/default_water_source_animated.png | RealBadAngel (RealBadAngel's animated water) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCRIVER.png | mods/default/textures/default_river_water_source_animated.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLAVA.png | mods/default/textures/default_lava_source_animated.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSANDST.png | mods/default/textures/default_sandstone_brick.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSNDSTN.png | mods/default/textures/default_sandstone.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDSNDBR.png | mods/default/textures/default_desert_sandstone_brick.png | kaeza | CC-BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCLAY.png | mods/default/textures/default_clay.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDSAND.png | mods/default/textures/default_desert_sand.png | VanessaE | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSILVSD.png | mods/default/textures/default_silver_sand.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDSTONE.png | mods/default/textures/default_desert_stone.png | VanessaE | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDSTBRK.png | mods/default/textures/default_desert_stone_brick.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDCOBBL.png | mods/default/textures/default_desert_cobble.png | TumeniNodes, derived from a texture by brunob.santos | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDRYGRS.png | mods/default/textures/default_dry_grass.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPODZOL.png | mods/default/textures/default_coniferous_litter.png | TumeniNodes | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPERMA.png | mods/default/textures/default_permafrost.png | paramat, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGRSIDE.png | mods/default/textures/default_dirt.png | random-geek, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGRSIDE.png | mods/default/textures/default_grass_side.png | paramat, derived from a texture by TumeniNodes | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGRSID2.png | mods/default/textures/default_dirt.png | random-geek, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGRSID2.png | mods/default/textures/default_grass_side.png | paramat, derived from a texture by TumeniNodes | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDRYSD.png | mods/default/textures/default_dirt.png | random-geek, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDRYSD.png | mods/default/textures/default_dry_grass_side.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSNOWSD.png | mods/default/textures/default_dirt.png | random-geek, derived from a texture by Neuromancer | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCSNOWSD.png | mods/default/textures/default_snow_side.png | Gambit | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLOG.png | mods/default/textures/default_tree.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLOGTOP.png | mods/default/textures/default_tree_top.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPINE.png | mods/default/textures/default_pine_tree.png | paramat (listed as default_pinetree.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPINETP.png | mods/default/textures/default_pine_tree_top.png | paramat (listed as default_pinetree_top.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCJUNGLE.png | mods/default/textures/default_jungletree.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCJUNGTP.png | mods/default/textures/default_jungletree_top.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCACACIA.png | mods/default/textures/default_acacia_tree.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCASPEN.png | mods/default/textures/default_aspen_tree.png | sofar | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCBRICK.png | mods/default/textures/default_brick.png | Calinou | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCBOOKS.png | mods/default/textures/default_bookshelf.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLEAVES.png | mods/default/textures/default_leaves_simple.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLEAVEA.png | mods/default/textures/default_leaves.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCJLEAVA.png | mods/default/textures/default_jungleleaves.png | PilzAdam | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCPINELF.png | mods/default/textures/default_pine_needles.png | Splizard | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGLASS.png | mods/default/textures/default_glass.png | Krock | CC0 1.0 | https://github.com/minetest/minetest_game |
+| MCGLASSA.png | mods/default/textures/default_glass.png | Krock | CC0 1.0 | https://github.com/minetest/minetest_game |
+| MCOBSGLS.png | mods/default/textures/default_obsidian_glass.png | PilzAdam | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOALO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOALO.png | mods/default/textures/default_mineral_coal.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCIRONO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCIRONO.png | mods/default/textures/default_mineral_iron.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGOLDO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGOLDO.png | mods/default/textures/default_mineral_gold.png | PilzAdam | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDIAMO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDIAMO.png | mods/default/textures/default_mineral_diamond.png | InfinityProject | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCMESEO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCMESEO.png | mods/default/textures/default_mineral_mese.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOPPO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOPPO.png | mods/default/textures/default_mineral_copper.png | Calinou | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTINO.png | mods/default/textures/default_stone.png | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTINO.png | mods/default/textures/default_mineral_tin.png | kilbith | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCIRONBL.png | mods/default/textures/default_steel_block.png | kilbith | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCGOLDBL.png | mods/default/textures/default_gold_block.png | kilbith | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDIABL.png | mods/default/textures/default_diamond_block.png | Gambit | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOPBL.png | mods/default/textures/default_copper_block.png | kilbith | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCOALBL.png | mods/default/textures/default_coal_block.png | Zeg9 | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCMESEBL.png | mods/default/textures/default_mese_block.png | paramat | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCLAMP.png | mods/default/textures/default_meselamp.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTNT.png | mods/tnt/textures/tnt_side.png | BlockMen (tnt README: 'All textures not mentioned below') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTNTTOP.png | mods/tnt/textures/tnt_top.png | BlockMen (tnt README: 'All textures not mentioned below') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCHEST.png | mods/default/textures/default_chest_front.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCHESTS.png | mods/default/textures/default_chest_side.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCHESTT.png | mods/default/textures/default_chest_top.png | BlockMen | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCFURN.png | mods/default/textures/default_furnace_front.png | Neuromancer (default_furnace_*.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCFURNON.png | mods/default/textures/default_furnace_front_active.png | Neuromancer (default_furnace_*.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCFURNSD.png | mods/default/textures/default_furnace_side.png | Neuromancer (default_furnace_*.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCACTUS.png | mods/default/textures/default_cactus_side.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCACTOP.png | mods/default/textures/default_cactus_top.png | celeron55, Perttu Ahola (not listed individually; README: 'Everything not listed in here') | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCHAY.png | mods/farming/textures/farming_straw.png | MasterGollum | CC BY 3.0 | https://github.com/minetest/minetest_game |
+| MCWOOLR.png | mods/wool/textures/wool_red.png | Cisoun | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCWOOLW.png | mods/wool/textures/wool_white.png | Cisoun | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCWOOLB.png | mods/wool/textures/wool_blue.png | Cisoun | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCWOOLY.png | mods/wool/textures/wool_yellow.png | Cisoun | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCWOOLK.png | mods/wool/textures/wool_black.png | Cisoun | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCCORAL.png | mods/default/textures/default_coral_skeleton.png | Pithydon | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTRAPD.png | mods/doors/textures/doors_trapdoor.png | BlockMen (listed as door_trapdoor.png) | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCTRAPD2.png | mods/doors/textures/doors_trapdoor_steel.png | sofar | CC-BY-SA-3.0 | https://github.com/minetest/minetest_game |
+| MCDOOR.png | mods/doors/textures/doors_door_wood.png | Fernando Zapata (door_wood.png); converted to the new texture map by sofar, paramat and red-001 | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+| MCDOOR2.png | mods/doors/textures/doors_door_steel.png | PilzAdam (doors README: 'All other textures'); converted to the new texture map by sofar, paramat and red-001 | CC BY-SA 3.0 | https://github.com/minetest/minetest_game |
+
+## Voxel props, bow and arrow
+All sprites were rendered with Blender from voxel/block geometry built from the textures below (scripts in this folder). The sprites are derived works of CC BY-SA sources, so they are distributed under CC BY-SA 4.0 (the bow/arrow parts) / CC BY-SA 3.0 (Minetest parts). CC BY-SA 4.0 is a compatible later version for CC BY-SA 3.0 adaptations.
+
+| what (used in) | source file / URL | author | license |
+|---|---|---|---|
+| bow textures (BOWG): mcl_bows_bow.png, mcl_bows_bow_0.png, mcl_bows_bow_1.png, mcl_bows_bow_2.png | https://git.minetest.land/VoxeLibre/VoxeLibre/raw/branch/master/textures/ (VoxeLibre, master, downloaded 2026-10-04) | XSSheep (Pixel Perfection resource pack), as packaged by VoxeLibre contributors | CC BY-SA 4.0 (VoxeLibre LEGAL.md: "The textures, unless otherwise noted, are based on the Pixel Perfection resource pack for Minecraft 1.11, authored by XSSheep ... License: CC BY-SA 4.0"; mcl_bows/README.txt: "Textures: See VoxeLibre license notes") |
+| arrow entity texture (MARW, side profile): mcl_bows_arrow.png | https://git.minetest.land/VoxeLibre/VoxeLibre/raw/branch/master/textures/mcl_bows_arrow.png | XSSheep (Pixel Perfection), via VoxeLibre | CC BY-SA 4.0 (same notice) |
+| blocky arm (BOWG): "arm-right" mesh of character-n.glb + Textures/texture-n.png (sleeve recoloured teal-blue, saved as gen/props/tex_arm_jacket.png) | Kenney "Blocky Characters" 2.0, https://kenney.nl (local copy gen/dl/blocky) | Kenney (www.kenney.nl) | CC0 1.0 |
+| oak log side/top (MTRE): default_tree.png, default_tree_top.png | https://github.com/minetest/minetest_game mods/default/textures | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 |
+| oak leaves (MTRE): default_leaves.png | same | Cisoun (Cisoun's texture pack) | CC BY-SA 3.0 |
+| pine log side/top (MPIN): default_pine_tree.png, default_pine_tree_top.png | same | paramat | CC BY-SA 3.0 |
+| pine needles (MPIN): default_pine_needles.png | same | Splizard | CC BY-SA 3.0 |
+| snow (MPIN snow layers): default_snow.png | same | Gambit | CC BY-SA 3.0 |
+| TNT side/top/bottom (MTNT): tnt_side.png, tnt_top.png, tnt_bottom.png | https://github.com/minetest/minetest_game mods/tnt/textures | BlockMen (tnt README: "All textures not mentioned below") | CC BY-SA 3.0 |
+| torch, 3 animation frames (MTOR): default_torch_on_floor_animated.png | minetest_game mods/default/textures | VanessaE | CC BY-SA 3.0 |
+| cobblestone fence post (MTOR): default_cobble.png | minetest_game mods/default/textures | Neuromancer, based on a texture by Brane praefect | CC BY-SA 3.0 |
+| stone brick (MLMP, MCOL): default_stone_brick.png | minetest_game mods/default/textures | paramat | CC BY-SA 3.0 |
+| stone block (MCOL plinth/capital): default_stone_block.png | minetest_game mods/default/textures | paramat | CC BY-SA 3.0 |
+| mese lamp (MLMP, tinted a little more yellow): default_meselamp.png | minetest_game mods/default/textures | BlockMen | CC BY-SA 3.0 |
+
+License texts: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ , CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/ , CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Copies of VoxeLibre's LEGAL.md, CREDITS.md and mcl_bows/README.txt are in gen/props/src/.
+
+## Sounds
+All files converted to mono 44.1 kHz 16-bit WAV, leading silence trimmed, faded/shortened where noted, peak-normalised to -3 dBFS.
+Freesound files were taken from the public preview MP3 (cdn.freesound.org, "-hq" preview).
+
+- bowshot.wav | 394180 "Arrow Loose and Flyby" (preview 394180_7280678-hq.mp3) | https://freesound.org/people/saturdaysoundguy/sounds/394180/ | saturdaysoundguy | CC0 1.0 | cut to 0.6 s
+- arrowhit.wav | 534956 "ARROW_WOOD_IMPACT_SINGLE_ARCHERY_01.wav" (preview 534956_579267-hq.mp3) | https://freesound.org/people/JoeDinesSound/sounds/534956/ | JoeDinesSound | CC0 1.0 | cut to 0.4 s
+- hurt.wav | impactPunch_heavy_002.ogg (Kenney Impact Sounds) | https://kenney.nl/assets/impact-sounds | Kenney (kenney.nl) | CC0 1.0
+- poof.wav | 208111 "Poof of Smoke" (preview 208111_2661585-hq.mp3) | https://freesound.org/people/Planman/sounds/208111/ | Planman | CC0 1.0 | cut to 0.6 s
+- xporb.wav | 459694 "Key Pickup" (preview 459694_6142149-hq.mp3) | https://freesound.org/people/LilMati/sounds/459694/ | LilMati | CC0 1.0
+- hiss.wav | 146963 "catHisses1.wav" (preview 146963_2580450-hq.mp3) | https://freesound.org/people/Zabuhailo/sounds/146963/ | Zabuhailo | CC0 1.0
+- boom.wav | explosionCrunch_003.ogg (Kenney Sci-fi Sounds) | https://kenney.nl/assets/sci-fi-sounds | Kenney (kenney.nl) | CC0 1.0
+- berry.wav | 446111 "Success Jingle" (preview 446111_758593-hq.mp3) | https://freesound.org/people/JustInvoke/sounds/446111/ | JustInvoke | CC BY 4.0 (attribution required)
+- dash.wav | 715784 "Magic Whoosh" (preview 715784_7943867-hq.mp3) | https://freesound.org/people/DustyWind/sounds/715784/ | DustyWind | CC0 1.0 | cut to 0.6 s
+- spring.wav | 540790 "Boing 2" (preview 540790_11537497-hq.mp3) | https://freesound.org/people/magnuswaker/sounds/540790/ | magnuswaker | CC0 1.0 | cut to 0.8 s
+- meow.wav | 262314 "Cat Meow3.wav" (preview 262314_1844073-hq.mp3) | https://freesound.org/people/steffcaffrey/sounds/262314/ | steffcaffrey | CC0 1.0
+- catlaser.wav | laserLarge_000.ogg (Kenney Sci-fi Sounds) | https://kenney.nl/assets/sci-fi-sounds | Kenney (kenney.nl) | CC0 1.0
+- orbcast.wav | 855451 "MAGSpel_Wand Spell Cast Dark Quick 008_GMcM_FS1DM" (preview 855451_6779432-hq.mp3) | https://freesound.org/people/Bisqo/sounds/855451/ | Bisqo | CC BY 4.0 (attribution required) | time-compressed x1.3 (pitch kept) to 0.75 s
+- zombie.wav | mobs_mc_zombie_growl.ogg (VoxeLibre mobs_mc; original Freesound 163445 "Zombie 4") | https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/ENTITIES/mobs_mc/sounds/mobs_mc_zombie_growl.ogg (origin https://freesound.org/people/Under7dude/sounds/163445/) | Under7dude | CC0 1.0 | pitched down ~15 %, cut to 1.2 s
+- heart.wav | 442943 "Level Up" (preview 442943_71257-hq.mp3) | https://freesound.org/people/qubodup/sounds/442943/ | qubodup | CC0 1.0
+- crystal.wav | default_break_glass.1.ogg (Minetest Game, mods/default/sounds; origin Freesound 71947 "bm_Glass_Break.wav") | https://github.com/minetest/minetest_game/blob/master/mods/default/sounds/default_break_glass.1.ogg (origin https://freesound.org/people/cmusounddesign/sounds/71947/) | cmusounddesign | CC BY 3.0 (per minetest_game license.txt; Freesound page now lists CC BY 4.0) (attribution required)
+- blockbreak.wav | stones_04.ogg (80 CC0 RPG SFX) | https://opengameart.org/content/80-cc0-rpg-sfx | rubberduck | CC0 1.0
+

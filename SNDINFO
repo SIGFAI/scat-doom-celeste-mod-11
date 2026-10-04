@@ -1,0 +1,24 @@
+sic/bowshot    sounds/bowshot.ogg
+sic/arrowhit   sounds/arrowhit.ogg
+sic/hurt       sounds/hurt.ogg
+sic/poof       sounds/poof.ogg
+sic/xporb      sounds/xporb.ogg
+sic/hiss       sounds/hiss.ogg
+sic/boom       sounds/boom.ogg
+sic/berry      sounds/berry.ogg
+sic/dash       sounds/dash.ogg
+sic/spring     sounds/spring.ogg
+sic/meow       sounds/meow.ogg
+sic/catlaser   sounds/catlaser.ogg
+sic/orbcast    sounds/orbcast.ogg
+sic/zombie     sounds/zombie.ogg
+sic/heart      sounds/heart.ogg
+sic/crystal    sounds/crystal.ogg
+sic/blockbreak sounds/blockbreak.ogg
+
+$limit sic/xporb 3
+$limit sic/arrowhit 3
+$limit sic/hurt 4
+$pitchshift sic/xporb 3
+$pitchshift sic/hurt 2
+$pitchshift sic/blockbreak 2
