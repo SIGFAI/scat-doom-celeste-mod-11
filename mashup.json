@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 11: Doom × Celeste",
   "tagline": "Turn every game into Minecraft. This time, mix in Celeste with a funny twist of your own.",
+  "how_to_play": [
+    "Climb the blocky Cube Mountain, collect the strawberries shown on screen, then outsmart the SuperIntelligent Cat.",
+    "Press F to do a Celeste dash; it recharges when you land, and touching a green dash crystal dashes you again.",
+    "Shoot with your bow, bounce on springs, and dash carefully: winged strawberries fly away if they see you dash.",
+    "Start a new game; once you have enough strawberries the cat appears, beat it and grab the Crystal Heart."
+  ],
   "kind": "mashup",
   "games": [
     {
